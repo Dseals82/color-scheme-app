@@ -40,8 +40,8 @@ class Navbar extends Component {
         <div className='select-container'>
           <Select value={format} onChange={this.handleChange}>
             <MenuItem value='hex'>Hex - #ffffff</MenuItem>
-            <MenuItem value='rbg'>RBG - rgb(255,255,255)</MenuItem>
-            <MenuItem value='rbga'>RBGA - rgba(255,255,255,1.0)</MenuItem>
+            <MenuItem value='rgb'>RGB - rgb(255,255,255)</MenuItem>
+            <MenuItem value='rgba'>RGBA - rgba(255,255,255,1.0)</MenuItem>
           </Select>
         </div>
       </nav>
