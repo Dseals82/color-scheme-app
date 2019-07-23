@@ -32,9 +32,9 @@ class Palette extends Component {
         changeLevel={this.changeLevel}
         handleChange={this.changeFormat}
       />
-        {/* Navbar goes here */}
+
         <div className="Palette-colors">{colorBoxes}</div>
-        {/* footer eventually */}
+
         <footer className="Palette-footer">
           {paletteName}
           <span className="emoji">{emoji}</span>
